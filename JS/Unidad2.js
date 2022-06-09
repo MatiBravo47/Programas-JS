@@ -98,10 +98,29 @@ function doble(n){
     return(n*2)
 }
 function imprimirElDobleDelSiguiente(n){
-    document.write("El siguiente del doble es: " + siguiente(doble(n)))
+    document.write("El siguiente del doble es: " + doble(siguiente(n)))
 }
 //Programa principal 
 n=parseInt(prompt("Ingrese un numero"))
 imprimirElDobleDelSiguiente(n)*/
 
+/*9)Una funcion que se denomine imprimirElDobleDelSiguienteAlCuadrado
+que dado un numero por parametro,imprima cual es el valor 
+siguiente al del doble.Usando las funciones definidas 
+en los puntos 5),6) y 7): siguiente,el doble y el cuadrado.*/
+function doble(n){
+    return (n*2)
+}
+function siguiente(n){
+    return (n+1)
+}
+function cuadrado(n){
+    return (n**2)
+}
+function imprimirElDobleDelSiguienteAlCuadrado(n){
+    document.write(cuadrado(doble(siguiente(n))))
+}
+//Programa principal 
+n=parseInt(prompt("Ingrese un numero"))
+imprimirElDobleDelSiguienteAlCuadrado(n)
 
