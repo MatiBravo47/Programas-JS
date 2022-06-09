@@ -207,14 +207,25 @@ esBisiesto(anio)*/
 estudiantes de su clase.Itere el array utilizando un 
 bucle while y luego imprima todas las edades en la 
 consola.*/
-
-const edades = [18,24,22,24,24,27];
+/*const edades = [18,24,22,24,24,27];
 let i = 0;
 let text = "";
 while (edades[i]){
     text += edades[i] +"<br>";
     i++;
 }
-document.getElementById("ejemplo").innerHTML = text;
+document.getElementById("ejemplo").innerHTML = text;*/
 
+/*20)Al ejercicio 1 agregue un condicional dentro del ciclo
+while para imprimir solo numeros pares.Cambie el ciclo 
+para usar un ciclo "for" en lugar de un ciclo "while".*/
+/*const edades =[18,24,22,24,24,27]
+let i = 0;
+let text= "";
+for (;edades[i];) {
+    if (edades[i] % 2 == 0){//Verifico si es par 
+    text += edades[i] +"<br>";}
+    i++; 
+} 
+document.getElementById("ejemplo").innerHTML = text;*/
 
