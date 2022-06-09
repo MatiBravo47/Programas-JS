@@ -69,5 +69,22 @@ document.write("El cuadrado de ese numero es: "+cuadrado(n))*/
 numero por parametro, imprimi cual es el valor siguiente,
 el doble y el cuadrado. Usando las funciones definidas en 
 los puntos 5), 6) y 7):siguiente , el doble y el cuadrado*/
+/*function cuadrado(n){
+    return (n**2)
+}
+function siguiente(n){
+    return(n+1)
+}
+function doble(n){
+    return (n*2)
+}
+function imprimirValores(n){
+    document.write("El siguiente del numero es: "+siguiente(n))
+    document.write("  .Su doble es: "+doble(n))
+    document.write("  .Su cuadrado es: "+cuadrado(n))
+}
+//Programa principal 
+n=parseInt(prompt("Ingrese un numero"))
+imprimirValores(n)*/
 
 
