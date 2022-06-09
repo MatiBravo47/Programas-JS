@@ -142,3 +142,12 @@ cuadrado devuelva la superficie*/
 n=parseInt(prompt("Ingrese longitud de un lado del cuadrado"))
 document.write("La superficie del cuadrado es:"+ superficieCuadrado(n))*/
 
+/*12)Una funcion que dado el radio de un circulo devuelva
+la circunferencia (perimetro del circulo)*/
+/*const PI=3.14;
+function circunferencia(r){
+    return (2*PI*r)
+}
+//Programa principal
+r=parseInt(prompt("Ingrese radio del circulo"))
+document.write("La circunferencia del circulo es"+ circunferencia(r))*/
