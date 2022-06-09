@@ -151,3 +151,13 @@ function circunferencia(r){
 //Programa principal
 r=parseInt(prompt("Ingrese radio del circulo"))
 document.write("La circunferencia del circulo es"+ circunferencia(r))*/
+
+/*13)Una funcion que dado el radio de un circulo devuelva
+el area del circulo*/
+/*const PI=3.14;
+function areaCirculo(r){
+    return(PI*(r**2))
+}
+//Programa principal 
+r=parseInt(prompt("Ingrese radio del circulo"))
+document.write("El area del circulo es "+areaCirculo(r))*/
