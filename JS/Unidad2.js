@@ -187,3 +187,17 @@ switch(mes) {
     break
 }
 document.write("Ese mes tiene "+ dias +" dias")*/
+
+/*15)Una funcion que reciba como parametro un anio 
+y diga si ese anio es bisiesto. */
+/*function esBisiesto(anio){
+if ((anio%4==0) && (anio%100 !=0 || anio%400==0 )){
+    document.write("El anio es bisiesto");
+}else{
+    document.write("El anio no es bisiesto");
+} 
+}
+//Programa principal 
+anio=parseInt(prompt("Ingrese un anio"))
+esBisiesto(anio)*/
+
