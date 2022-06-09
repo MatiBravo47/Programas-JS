@@ -161,3 +161,29 @@ function areaCirculo(r){
 //Programa principal 
 r=parseInt(prompt("Ingrese radio del circulo"))
 document.write("El area del circulo es "+areaCirculo(r))*/
+
+/*14)Una funcion que dado un numero de mes y me devuelva la 
+cantidad de dias de ese mes(suponiendo que no es un 
+anio bisiesto)*/
+/*mes=parseInt(prompt("Ingrese numero de mes"))
+switch(mes) {
+    case 1:
+    case 3:
+    case 5:
+    case 7:
+    case 8:
+    case 10: 
+    case 12:
+        dias=31
+    break
+    case 2:
+        dias=28
+    break
+    case 4:
+    case 6:
+    case 9:
+    case 11: 
+        dias=30
+    break
+}
+document.write("Ese mes tiene "+ dias +" dias")*/
