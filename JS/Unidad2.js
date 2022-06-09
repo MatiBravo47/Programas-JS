@@ -11,13 +11,13 @@
 // repetirTexto(n)
 
 //2.Diseniar una funcion que tenga como parametros dos numeros,y que calcule el maximo
-function valorMaximo(x,z){
-    if (x>z)
-        return n
-    else
-        return z
-}
+//function valorMaximo(x,z){
+//    if (x>z)
+//        return n
+//    else
+//        return z
+//}
 //programa principal 
-let n=parseInt(prompt("Ingrese un numero entero:"))
-let n1=parseInt(prompt("Ingrese otro numero entero:"))
-valorMaximo(n,n1)
+//let n=parseInt(prompt("Ingrese un numero entero:"))
+//let n1=parseInt(prompt("Ingrese otro numero entero:"))
+//valorMaximo(n,n1)
