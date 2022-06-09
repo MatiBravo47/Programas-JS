@@ -201,3 +201,20 @@ if ((anio%4==0) && (anio%100 !=0 || anio%400==0 )){
 anio=parseInt(prompt("Ingrese un anio"))
 esBisiesto(anio)*/
 
+
+//TEMA: String y Array
+/*19)Cree un array con todas las edades de de los 
+estudiantes de su clase.Itere el array utilizando un 
+bucle while y luego imprima todas las edades en la 
+consola.*/
+
+const edades = [18,24,22,24,24,27];
+let i = 0;
+let text = "";
+while (edades[i]){
+    text += edades[i] +"<br>";
+    i++;
+}
+document.getElementById("ejemplo").innerHTML = text;
+
+
