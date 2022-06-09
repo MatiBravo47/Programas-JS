@@ -15,5 +15,31 @@ else{
 
 /* Crear un programa que segun el numero de dia de la semana
 solicitado,diga "buen lunes""buen martes"",etc.*/
+let dia;
+dia = parseInt(prompt("Ingrese el dia de la semana:"))
+switch (dia){
+    case 1:
+        console.log("Buen lunes")
+        break
+    case 2:
+        console.log("Buen martes")
+        break
+    case 3:
+        console.log("Buen miercoles")
+        break
+    case 4:
+        console.log("Buen jueves")
+        break
+    case 5:
+        console.log("Buen viernes")
+        break
+    case 6:
+        console.log("Buen sabado")
+        break
+    case 7:
+        console.log("Buen domingo")
+        break
+
+}
 
 
