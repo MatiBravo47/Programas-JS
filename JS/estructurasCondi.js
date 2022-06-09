@@ -14,7 +14,7 @@ else{
 }*/
 
 /* Crear un programa que segun el numero de dia de la semana
-solicitado,diga "buen lunes""buen martes"",etc.*/
+solicitado,diga "buen lunes""buen martes"",etc.
 let dia;
 dia = parseInt(prompt("Ingrese el dia de la semana:"))
 switch (dia){
@@ -39,7 +39,14 @@ switch (dia){
     case 7:
         console.log("Buen domingo")
         break
+}*/
 
-}
+/*Crear un programa que permita definir la estacion del anio
+de acuerdo a un dia y mes dados.*/
+
+/*let dia= parseInt( prompt("ingrese un dia"))
+let mes= parseInt( prompt("Ingrese un mes "))
+
+if (mes){}*/
 
 
