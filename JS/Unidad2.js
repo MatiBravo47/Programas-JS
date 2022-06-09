@@ -87,4 +87,21 @@ function imprimirValores(n){
 n=parseInt(prompt("Ingrese un numero"))
 imprimirValores(n)*/
 
+/*8)Una funcion que se denomine imprimirELDobleDelSiguiente
+que dado un numero por parametro,imprima cual es el valor
+siguiente del doble.usando las funciones definidas de los 
+puntos 5),6): siguiente,el doble.*/ 
+/*function siguiente(n){
+    return(n+1)
+}
+function doble(n){
+    return(n*2)
+}
+function imprimirElDobleDelSiguiente(n){
+    document.write("El siguiente del doble es: " + siguiente(doble(n)))
+}
+//Programa principal 
+n=parseInt(prompt("Ingrese un numero"))
+imprimirElDobleDelSiguiente(n)*/
+
 
