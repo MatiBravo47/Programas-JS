@@ -131,5 +131,14 @@ cuadrado devuelva el perimetro*/
 }
 //Programa principal
 n=parseInt(prompt("Ingrese la longitud del lado del cuadrado"))
-document.write(perimetroCuadrado(n))*/ 
+document.write(perimetroCuadrado(n))*/
+
+/*11)Una funcion que dado la longitud de un lado de un 
+cuadrado devuelva la superficie*/
+/*function superficieCuadrado(n){
+    return (n**2)
+}
+//Programa principal 
+n=parseInt(prompt("Ingrese longitud de un lado del cuadrado"))
+document.write("La superficie del cuadrado es:"+ superficieCuadrado(n))*/
 
