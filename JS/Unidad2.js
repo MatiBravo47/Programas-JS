@@ -108,7 +108,7 @@ imprimirElDobleDelSiguiente(n)*/
 que dado un numero por parametro,imprima cual es el valor 
 siguiente al del doble.Usando las funciones definidas 
 en los puntos 5),6) y 7): siguiente,el doble y el cuadrado.*/
-function doble(n){
+/*function doble(n){
     return (n*2)
 }
 function siguiente(n){
@@ -122,5 +122,14 @@ function imprimirElDobleDelSiguienteAlCuadrado(n){
 }
 //Programa principal 
 n=parseInt(prompt("Ingrese un numero"))
-imprimirElDobleDelSiguienteAlCuadrado(n)
+imprimirElDobleDelSiguienteAlCuadrado(n)*/
+
+/*10)Una funcion que dado la longitud de un lado de una 
+cuadrado devuelva el perimetro*/
+/*function perimetroCuadrado(n){
+    return(n*4)
+}
+//Programa principal
+n=parseInt(prompt("Ingrese la longitud del lado del cuadrado"))
+document.write(perimetroCuadrado(n))*/ 
 
