@@ -229,3 +229,9 @@ for (;edades[i];) {
 } 
 document.getElementById("ejemplo").innerHTML = text;*/
 
+/*21)Escriba una funcion que reciba un array como parametro 
+e imprima el numero mas bajo para cualquier array que se 
+pase */
+/*const edades =[18,24,22,24,24,27]
+document.getElementById("ejemplo").innerHTML = "El minimo del Array es: "+ (Math.min.apply(null,edades));*/
+
