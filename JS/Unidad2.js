@@ -235,3 +235,7 @@ pase */
 /*const edades =[18,24,22,24,24,27]
 document.getElementById("ejemplo").innerHTML = "El minimo del Array es: "+ (Math.min.apply(null,edades));*/
 
+/*22)Escriba una funcion que reciba un array como parametro
+e imprima el numero mas grande de la array en la consola.*/
+/*const edades = [18,24,22,24,24,27]
+document.getElementById("ejemplo").innerHTML= "El maximo del Array es: "+ (Math.max.apply(null,edades));*/
