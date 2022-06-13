@@ -238,4 +238,25 @@ document.getElementById("ejemplo").innerHTML = "El minimo del Array es: "+ (Math
 /*22)Escriba una funcion que reciba un array como parametro
 e imprima el numero mas grande de la array en la consola.*/
 /*const edades = [18,24,22,24,24,27]
-document.getElementById("ejemplo").innerHTML= "El maximo del Array es: "+ (Math.max.apply(null,edades));*/
+console.log((Math.max.apply(null,edades)));*/
+
+/*23)Escriba una funcion que reciba dos parametros, una array
+y un indice.La funcion imprimira el valor del elemento en la 
+posicion dada(basado en uno)en la consola.Por ejemplo,
+dada la siguiente array e indique,la funcion imprimira '6'
+var array=[3,6,67,6,23,11,100,8,93,0,17,24,7,1,33,45,28,33,23,12,99,100]
+var index =1;*/
+/*var array=[3,6,67,6,23,11,100,8,93,0,17,24,7,1,33,45,28,33,23,12,99,100]
+num=parseInt(prompt("Ingrese un numero"))
+console.log(array.indexOf(num))*/
+
+/*24)Escriba una funcion que reciba una array y solo imprima
+los valores que se repiten.Por ejemplo,dada la siguiente 
+array e indice,la funcion imprimira '6,23,23,100'
+var array=[3,6,67,6,23,11,100,8,93,0,17,24,7,1,33,45,28,33,23,12,99,100]; */
+
+
+
+
+
+
