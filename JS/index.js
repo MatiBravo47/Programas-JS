@@ -211,7 +211,96 @@ while (confirm("Desea continuar"));
 document.write(Resultado)
 /*
 
-//22
+/*22)Realizar una pagina con un script que calcule el valor
+de la letra de un numero de DNI
+*El numero debe ser 0 y 99999999
+*Debemos calcular el resto de la division entera entre el
+numero y el numero 23
+*Segun el resultado, de 0 a 22,le correspondera una letra de 
+las siguientes: 
+(T,R,W,A,G,M,Y,F,P,D,X,B,N,J,Z,S,Q,V,H,L,C,K,E)
+*Si lo introducido no es un numero debera indicarse con un 
+alert y volver a preguntar.
+*Debera de repetirse el proceso hasta que el usuario pulse
+"calcelar"
+*/
+/*DNI=(prompt("Ingrese numero de dni"))  
+resto=DNI % 23
+switch (resto) {
+    case 0: 
+        document.write("T")
+        break;
+    case 1:
+        document.write("R")
+        break;
+    case 2:
+        document.write("W")
+        break;
+    case 3:
+        document.write("A")
+        break;
+    case 4:
+        document.write("G")
+        break;
+    case 5:
+        document.write("M")
+        break;
+    case 6:
+        document.write("Y")
+        break;
+    case 7: 
+        document.write("F")
+        break;
+    case 8:
+        document.write("P")
+        break;
+    case 9:
+        document.write("D")
+        break;
+    case 10:
+        document.write("X")
+        break;
+    case 11:
+        document.write("B")
+        break;
+    case 12:
+        document.write("N")
+        break;
+    case 13:
+        document.write("J")
+        break;
+    case 14:
+        document.write("Z")
+        break;
+    case 15:
+        document.write("S")
+        break;
+    case 16:
+        document.write("Q")
+        break;
+    case 17:
+        document.write("V")
+        break;
+    case 18:
+        document.write("H")
+        break;
+    case 19:
+        document.write("L")
+        break;
+    case 20:
+        document.write("C")
+        break;
+    case 21:
+        document.write("K")
+        break;  
+    case 22: 
+        document.write("E")
+        break;
+}
+*/
+
+
+
 
 /*23)Realiza un script que escriba una piramide del 1 al 30
 de la siguiente forma 
@@ -229,6 +318,7 @@ for (i = 1;i<=30;i++) { //numero cada linea
     }
     document.write("<br>") //Baja linea
 }*/
+
 /*24)Haz un script que escriba una piramide inversa de los 
 numeros del 1 al numero que indique el usuario de la siguiente
 forma:(Suponiendo que indica 6)
