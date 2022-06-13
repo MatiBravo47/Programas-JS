@@ -281,7 +281,19 @@ Por ejemplo,si x=32443,la salida deberia ser 34423.
 /*num=parseInt(prompt("Ingrese un numero"))
 document.write(invertir(num))*/
 
-
+/*27)Escriba una funcion de JavaScript que devuelva una
+cadena en orden alfabetico.Por ejemplo,si x='webmaster',
+la salida deberia ser 'abeemrstw'.La puntuacion y los 
+numeros no se pasan en la cadena.*/
+/*
+function Alfabetica(texto){
+    const alfa=texto.split("").sort().join("");
+    return alfa;
+}
+//Programa principal 
+texto=prompt("Ingrese una palabra")
+document.write(Alfabetica(texto))
+*/
 
 
 
