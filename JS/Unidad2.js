@@ -255,6 +255,19 @@ los valores que se repiten.Por ejemplo,dada la siguiente
 array e indice,la funcion imprimira '6,23,23,100'
 var array=[3,6,67,6,23,11,100,8,93,0,17,24,7,1,33,45,28,33,23,12,99,100]; */
 
+/*25)Escriba una funcion de javaScript simple unir todos los 
+elementos de la siguiente array en una cadena
+myColor=["Red","Green","White","Black"]
+Deberia ver lo siguiente en su consola: "Rojo","Verde","Blanco"
+"Negro"
+*/ 
+/*myColor=["Red","Green","White","Black"]
+for (let x of myColor) {
+    console.log(x +" ,")
+}
+*/
+
+
 
 
 
