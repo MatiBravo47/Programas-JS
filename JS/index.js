@@ -212,7 +212,25 @@
 
 //22
 
-//23
+//23)Realiza un script que escriba una piramide del 1 al 30
+//de la siguiente forma 
+/*
+1
+22
+333
+4444
+55555
+666666
+*/
+var i,rep;
+for (i = 1;i<=30;i++) { //numero cada linea 
+    for (rep=0;rep <i;rep++){//Repeticiones linea
+        document.write(i);
+    }
+    document.write("<br>") //Baja linea
+}
+
+
 
 
 
