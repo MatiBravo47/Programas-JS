@@ -267,6 +267,24 @@ for (let x of myColor) {
 }
 */
 
+/*26)Escriba una funcion de JavaScript que invierta un numero.
+Por ejemplo,si x=32443,la salida deberia ser 34423.
+.toString: convertir numero en una cadena
+.slit(""): Convervir en arreglo 
+.reverse():volcar 
+.join(""):Volver a convertir en cadena.*/
+/*function invertir(n){
+    const invertido=n.toString().split("").reverse().join("");
+    return invertido;
+}
+//Programa principal 
+/*num=parseInt(prompt("Ingrese un numero"))
+document.write(invertir(num))*/
+
+
+
+
+
 
 
 
