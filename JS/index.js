@@ -196,25 +196,25 @@
 // }while (confirm("Desea continuar"));
 // document.write(resultado);
 
-//21.Realiza un script que pida numeros hasta que se pulse "cancelar".
-//Si no es un numero debera indicarse con un "alert" y seguir pidiendo.
-//Al salir con "cancelar" debera indicarse la suma total de los numeros introducidos
-// Resultado=0;
-// do{
-//     var num= prompt("Ingrese un numero")
-//     if (num= parseInt(num)){
-//         Resultado=Resultado+num
-//     }
-//     else {alert("No es un numero")}
-// } 
-// while (confirm("Desea continuar"));
-// document.write(Resultado)
+/*21.Realiza un script que pida numeros hasta que se pulse "cancelar".
+Si no es un numero debera indicarse con un "alert" y seguir pidiendo.
+/*Al salir con "cancelar" debera indicarse la suma total de los numeros introducidos
+/* Resultado=0;
+do{
+    var num= prompt("Ingrese un numero")
+    if (num= parseInt(num)){
+        Resultado=Resultado+num
+    }
+    else {alert("No es un numero")}
+} 
+while (confirm("Desea continuar"));
+document.write(Resultado)
+/*
 
 //22
 
-//23)Realiza un script que escriba una piramide del 1 al 30
-//de la siguiente forma 
-/*
+/*23)Realiza un script que escriba una piramide del 1 al 30
+de la siguiente forma 
 1
 22
 333
@@ -222,15 +222,33 @@
 55555
 666666
 */
-var i,rep;
+/*var i,rep;
 for (i = 1;i<=30;i++) { //numero cada linea 
     for (rep=0;rep <i;rep++){//Repeticiones linea
         document.write(i);
     }
     document.write("<br>") //Baja linea
+}*/
+/*24)Haz un script que escriba una piramide inversa de los 
+numeros del 1 al numero que indique el usuario de la siguiente
+forma:(Suponiendo que indica 6)
+666666
+55555
+4444
+333
+22
+1
+*/
+/*
+var i,rep;
+var num=parseInt(prompt("Ingrese un numero"))//6
+for (i = num;i>=1;i--){ //Numero empieza en 6 y decrece 
+    for (rep=i;rep>=1;rep--){ //Rep empieza en 6 y decrece 
+        document.write(i)
+    }
+    document.write("<br>")
 }
-
-
+*/
 
 
 
