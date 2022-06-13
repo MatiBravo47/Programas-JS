@@ -340,5 +340,36 @@ for (i = num;i>=1;i--){ //Numero empieza en 6 y decrece
 }
 */
 
+/*25)Un script que escriba los numeros del 1 al 500,que 
+indique cuales son multiplos de 4 y de 9 y que cada 5 lineas
+muestre una linea horizontal.Por ejemplo:
+1
+2
+3
+4(multiplo de 4)
+5
+_____________
+6
+7
+8(multiplo de 4)
+9(multiplo de 9)
+10
+*/
+/*
+for (i=1;i<=500;i++){
+    document.write(i)
+    if (i % 4==0) {
+        document.write(" (multiplo de 4)")
+    }
+    if (i % 9==0) {
+        document.write(" (multiplo de 9)")
+    }
+    if (i%5==0) {
+        document.write("<hr>")
+    }
+    document.write("<br>")    
+}
+*/
+
 
 
