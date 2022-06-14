@@ -294,10 +294,47 @@ function Alfabetica(texto){
 texto=prompt("Ingrese una palabra")
 document.write(Alfabetica(texto))
 */
+/*
+28)Escriba una funcion de JavaScript que convierta la 
+primera letra de cada palabra a mayusculas.Por ejemplo,si 
+x="prince of persia",la salida deberia ser "Prince of Persia"
+*/
+/*
+function Mayusculas(texto){
+    mayus=texto.charAt(0).toUpperCase() + texto.slice(1) ;
+    return mayus;
+}
+//Programa principal 
+texto=prompt("Ingrese texto")
+document.write(Mayusculas(texto))
+*/
+/*
+29)Escriba una funcion de JavaScript que busque la palabra 
+mas larga de una frase.Por ejemplo,si x="tutorial de 
+desarrollo web" el resultado deberia ser "Desarrollo"
+*/
+/*
+const palabraMasLarga = cadena => {
+    //separa por espacios
+    const separadaPorEspacios = cadena.split(" ");
+    //Inicializa con la primera palabra
+    let palabraMasLarga = separadaPorEspacios[0];
+    //recorre y compara
+    for (const palabra of separadaPorEspacios) {
+        if (palabra.length >= palabraMasLarga.length){
+            palabraMasLarga = palabra;
+        }
+    }
+    return palabraMasLarga;
+};
 
-
-
-
+const oracion= "Quiero saber cual es la palabra mas larga de esta oracion"
+const palabra = palabraMasLarga(oracion);
+console.log ("La oracion es: ");
+console.log (oracion);
+console.log ("La palabra mas larga es: ");
+console.log(palabra);
+*/
 
 
 
