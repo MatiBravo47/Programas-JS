@@ -1,3 +1,5 @@
+const points=[175,129,126,111,102,77,50,46,39,18,16,15,15,13,11,5,3,3,0,0,0]
+
 var data=[
   {Codigo:"cod1",
   nombre:"Carlos Sainz",
@@ -103,8 +105,8 @@ var data=[
 if ( document.getElementById( "idtabla" )) {
   //la tabla tiene un encabezado fijo
 cad=`
-    <p>Corredores F1<p>
-    <table>
+    <p class="h1">Corredores F1<p>
+    <table class="table table-hover table-dark">
       <tr>
         <th>Nombre</th>
         <th>Equipo</th>
