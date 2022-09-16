@@ -2,8 +2,8 @@
 consola segun el horario:Buenos dias(14 horas),buenas
 tardes (19 horas) o buenas noches*/
 
-/*let hora;
-hora = parseInt(prompt("Ingrese la hora:"))
+/*
+let hora = parseInt(prompt("Ingrese la hora:"))
 if (hora <= 14){
     console.log("Buenos dias")
 }else if (hora <= 19){
@@ -17,8 +17,7 @@ else{
 /* Crear un programa que segun el numero de dia de la semana
 solicitado,diga "buen lunes""buen martes"",etc.
 
-let dia;
-dia = parseInt(prompt("Ingrese el dia de la semana:"))
+let dia = parseInt(prompt("Ingrese el dia de la semana:"))
 switch (dia){
     case 1:
         console.log("Buen lunes")
